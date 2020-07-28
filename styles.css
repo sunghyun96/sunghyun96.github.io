@@ -234,7 +234,6 @@ header .nav-links a:hover {
     background-image: url(../img/About-Me-Background-BW.jpg);
     background-size: cover;
     background-position: right;
-    /*margin-top: -80px;*/
     height: 100vh;
 }
 
@@ -268,7 +267,7 @@ header .nav-links a:hover {
     margin-right: -100%;
     margin-left: 10px;
     border-top: 2px solid white;
-    width: 55%;
+    width: 25vw;
 }
 
 .about-anchor #my-description {
@@ -282,7 +281,7 @@ header .nav-links a:hover {
         padding-bottom: 40px;
     }
     .about-anchor h2:after {
-        width: 60%;
+        width: 35vw;
     }
     .about-anchor #my-description {
         padding-right: 300px;
@@ -313,7 +312,7 @@ header .nav-links a:hover {
     display: flex;
 }
 
-.projects-anchor a {
+.projects-anchor #projects {
     position: relative;
     top: -59px;
 }
