@@ -218,7 +218,7 @@ header .nav-links a:hover {
     top: -80px;
 }
 
-.home-background {
+.home-content {
     margin-top: -180px;
     display: flex;
     justify-content: center;
@@ -226,7 +226,16 @@ header .nav-links a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     height: 120vh;
-    width: 100%
+    width: 100%;
+    transform: translateX(500px);
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 /* About */

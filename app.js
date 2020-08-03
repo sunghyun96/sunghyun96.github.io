@@ -5,7 +5,7 @@ const navSlide = () => {
     const navLinks = document.querySelectorAll('.nav-links li');
 
 
-    // TODO: Make the closing animation for the links better
+    // TODO: Make the closing animation
     // TODO: Make the menu close with a link press
     // Toggle the menu
     burger.addEventListener('click', () => {
@@ -23,18 +23,17 @@ const navSlide = () => {
 
         // Burger to X Animation
         burger.classList.toggle('toggle');
-    });
+    })
 }
 
-// const navClose = () => {
-//     const navLinksMenu = document.querySelector('nav-links');
+/******* Content fade in from the left on page load *******/
+const homeContent = document.querySelector('.home-content');
 
-//     window.addEventListener('mouseup', (event) => {
-//         if (event.target != navLinksMenu) {
-//             navLinksMenu.classList.toggle('nav-active')
-//         }
-//     });
-// }
+// TODO: Finish the fade in animation
+window.addEventListener('load', () => {
+    
+    homeContent.style.animation = 'fadeIn 1s ease-out 0.65s forwards';
+})
 
 /******* Changing from BW image to color on hover *******/
 // Weather App Icons
@@ -72,4 +71,3 @@ const setToBW2 = (icon) => {
 }
 
 navSlide();
-//navClose();
