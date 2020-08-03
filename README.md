@@ -4,4 +4,4 @@ This site a personal portfolio website created by using HTML5, CSS3, and JavaScr
 
 ## Link to Page
 
-[sunghyun96.github.io](https://sunghyun96.guthub.io)
+<https://sunghyun96.guthub.io>
